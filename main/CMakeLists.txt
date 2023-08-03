@@ -5,7 +5,11 @@
 
 idf_component_register(
     SRCS
-        "main.c"
+        "anotherworld.c"
+        "system_wrapper.c"
+		"filesystems.c"
+        "fpga_util.c"
+        "fpga_download.c"
     INCLUDE_DIRS
         "." "include"
 )
